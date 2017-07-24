@@ -23,4 +23,4 @@ My proposed project has twofold objective.  The first is to recognize severe pro
 
 The second object is to analyze if New York authorities made the efforts to solve those problems by specifically focusing on New York traffic.  Using the residential complaints and combining with NYPD Motor Vehicles Collision data (includes the data of collusion such as location and time), I intend to analyze if the 311 service request lower the rate of collision progressing through time.  For example, in my second figure, I plotted out the 2015 complaints on traffic and street light, along with all the rush hour collisions happened in 2015.  By observation, it showed us the correlation between residential complaints on traffic and collision. 
 
-![featuring_barh](/images/Collision and Traffic Complaint.png)
+![network_graph](/images/Collision and Traffic Complaint.png)
