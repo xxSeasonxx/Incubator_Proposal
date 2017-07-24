@@ -5,36 +5,47 @@
 
 ## Summary
 
-This currently repository stores the preliminary work of my project for the Data Incubator Fellowship Program. In this project, I seek to gain an insight into the network of popular U.S. rappers, whose songs have been ranked on Billboard's weekly Hot Rap Songs list. The main motivation comes from my recent interest in American hip-hop and rap artists. By exploring and examining the featuring network of rappers, I seek to present how popular rappers are connected to each other by the means of collaborating on their creative works as well as how such connections have changed over time. When completed, this project will offer insights into a major component of the current American pop culture, i.e., hip-hop and rap, including its key players and their collaborative efforts and historical trends. Furthermore, the project can be readily generalized beyond hip-hop and rap to encompass other genres of music.
+This currently repository stores the preliminary work of my project for the Data Incubator Fellowship Program. In this project, I seek to gain an insight into the network of popular U.S. rappers, whose songs have been ranked on Billboard's weekly Hot Rap Songs list. The main motivation comes from my recent interest in American hip-hop and rap artists. By exploring and examining the featuring network of rappers, I seek to present how popular rappers are connected to each other by the means of collaborating o# Incubator_Proposal
+# New York City resident complainst
+*Season Yang*  
+*07-24-2017*  
+
+## Summary
+
+The history of New York City can be traced by to 1624 when colonists of the Dutch Republic set the Lower Manhattan as a trading harbor.  Today, with the estimated of population of 8,537,673, New York has become the most populous city in the United States.  As a graduate student from Columbia University, I feel honored studying in one of the greatest city in the world.  
+
+However, as a city that has over 300 years of history, New York City exists many issues and thus for the Data Incubator Fellowship, I am proposing a project to raise awareness of New York City problems.  To solve problems, we must first recognize what are the problems and which are the most severe ones.  Therefore, my primary project data will be the New York City 311 Service Requests data.  Through residential complaints, I intend to recognize and analyze New York City major issues and determine if New York authorities made the efforts to solve those problems.
 
 
 ## Data
 
-The current project uses data from [Billboard's weekly chart of Hot Rap Songs](www.billboard.com/charts/rap-song). Every week, Billboard selects and presents the most popular current rap songs of the week, ranked from 1 to 25. According to the official explanation, these songs are ranked by:
+The New York City 311 Service Requests data contains all the service requests (or complaints) from 2011 to present and it is 10G dataset.  The important attributes of this dataset include time, locations of complaints, responsible agencies, descriptions (solved or not), types of complaints and cities.  For my preliminary analysis, I used the 2015 data.
 
-> radio airplay audience impressions as measured by Nielsen Music, sales data as compiled by Nielsen Music SoundScan and streaming activity data from online music sources tracked by Nielsen Music. Songs are defined as current if they are newly-released titles, or songs receiving widespread airplay and/or sales activity for the first time.
+## Approach -- Part 1
+My proposed project has twofold objective.  The first is to recognize severe problems.  Using data science tool (such as decision tree), I will look for severe problem-types and analyze what are the main factors that contribute to those problems (such as locations and time).  For example, in my first figure, I used bar plot to count the most frequent complaint types of the major cities in New York area. Through this figure, I have found some interesting observations.  Even though M# Incubator_Proposal
+# New York City resident complainst
+*Season Yang*  
+*07-24-2017*  
 
-Using the data scrapped from Billboard's Hot Rap Songs weekly chart webpages, the current project aims to provide information on on how various artists are related to one another via collaboration. The project will use 10 years of weekly charts for analysis, examining the network of over 500 artists embodied in 13,000 tracks (with repeats).
+## Summary
 
+The history of New York City can be traced by to 1624 when colonists of the Dutch Republic set the Lower Manhattan as a trading harbor.  Today, with the estimated of population of 8,537,673, New York has become the most populous city in the United States.  As a graduate student from Columbia University, I feel honored studying in one of the greatest city in the world.  
 
-## Methodology
-
-Central to the current project is a simple network analysis, which compares 10 annually formed networks of artists for 10 years. Each network is represnted by a directed graph, where each node is an artist and each edge marks a collaboration between artists linked by the edge. Each edge originates from a featuring artist and reaches to an artist who wrote the song.
-
-
-## Planned outcome
-
-The culmination of the current project will be an app that enables users to see the evolving network of popular hip-hop and rap artists interactively. Users will be able to select and change the calender year to make comparisons across the yearly networks and click on a specific artist to find more about the artist as well as the artist's creative/collaborative connections. The app will also provide information on how the artists are connected to one another, how fruitful the connections are (measured by the number of collaborative works on the weekly chart from the given year as well as over time), and more! 
+However, as a city that has over 300 years of history, New York City exists many issues and thus for the Data Incubator Fellowship, I am proposing a project to raise awareness of New York City problems.  To solve problems, we must first recognize what are the problems and which are the most severe ones.  Therefore, my primary project data will be the New York City 311 Service Requests data.  Through residential complaints, I intend to recognize and analyze New York City major issues and determine if New York authorities made the efforts to solve those problems.
 
 
-## Preliminary explorations
+## Data
 
-The following two plots hint at what is to come for the current project.
+The New York City 311 Service Requests data contains all the service requests (or complaints) from 2011 to present and it is 10G dataset.  The important attributes of this dataset include time, locations of complaints, responsible agencies, descriptions (solved or not), types of complaints and cities.  For my preliminary analysis, I used the 2015 data.
+
+## Approach -- Part 1
+My proposed project has twofold objective.  The first is to recognize severe problems.  Using data science tool (such as decision tree), I will look for severe problem-types and analyze what are the main factors that contribute to those problems (such as locations and time).  For example, in my first figure, I used bar plot to count the most frequent complaint types of the major cities in New York area. Through this figure, I have found some interesting observations.  Even though Manhattan has the densest population, within the most common complaints, Brooklyn and Bronx share larger complaint proportion.  For the complaint type, Blocked Driveway, the complaints for Brooklyn and Bronx exceed Manhattan by large amount.  In the future, I will focus on the description column and use nature language processing skill to determine if the issues are solved.  In the meantime, I will use all the dataset from 2011 to present and check how the same issues progress through time.
 
 ![network_graph](/images/network_graph.png)
 
-The first plot is a directional graph illustrating a sample network of hip-hop artists based on the Billboard Hot Rap Songs chart over the last quarter (13 weeks). In the middel of the plot are artists with a high number of featurings. We observe that these artists are roughly equivalent to those who are currently the best known and most influential.
+
+## Approach -- Part 2
+
+The second object is to analyze if New York authorities made the efforts to solve those problems by specifically focusing on New York traffic.  Using the residential complaints and combining with NYPD Motor Vehicles Collision data (includes the data of collusion such as location and time), I intend to analyze if the 311 service request lower the rate of collision progressing through time.  For example, in my second figure, I plotted out the 2015 complaints on traffic and street light, along with all the rush hour collisions happened in 2015.  By observation, it showed us the correlation between residential complaints on traffic and collision. 
 
 ![featuring_barh](/images/featuring_barh.png)
-
-The second plot is a horizontal bar graph illustrating the distribution of the number of featurings among artists over the last 10 years (52*10 weeks). We find that this is a highly skewed distribution since more than 500 artists appeared on the Hot Rap Songs chart over the last year. We also observe that those with a high number of featurings are mostly well-known artists.# Incubator_Proposal
