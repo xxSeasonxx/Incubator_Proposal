@@ -16,12 +16,12 @@ The New York City 311 Service Requests data contains all the service requests (o
 ## Approach -- Part 1
 My proposed project has twofold objective.  The first is to recognize severe problems.  Using data science tool (such as decision tree), I will look for severe problem-types and analyze what are the main factors that contribute to those problems (such as locations and time).  For example, in my first figure, I used bar plot to count the most frequent complaint types of the major cities in New York area. Through this figure, I have found some interesting observations.  Even though Manhattan has the densest population, within the most common complaints, Brooklyn and Bronx share larger complaint proportion.  For the complaint type, Blocked Driveway, the complaints for Brooklyn and Bronx exceed Manhattan by large amount.  In the future, I will focus on the description column and use nature language processing skill to determine if the issues are solved.  In the meantime, I will use all the dataset from 2011 to present and check how the same issues progress through time.
 
-![network_graph](/images/Most_Comp_City.png)
+![Most_Complaints](/images/Most_Comp_City.png)
 
 
 ## Approach -- Part 2
 
 The second object is to analyze if New York authorities made the efforts to solve those problems by specifically focusing on New York traffic.  Using the residential complaints and combining with NYPD Motor Vehicles Collision data (includes the data of collusion such as location and time), I intend to analyze if the 311 service request lower the rate of collision progressing through time.  For example, in my second figure, I plotted out the 2015 complaints on traffic and street light, along with all the rush hour collisions happened in 2015.  By observation, it showed us the correlation between residential complaints on traffic and collision. 
 
-![alt text](/images/Collision_and_Traffic_Complaint.png)
+![Traffic](/images/Collision_and_Traffic_Complaint.png)
 
