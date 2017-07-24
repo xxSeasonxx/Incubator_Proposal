@@ -1,11 +1,3 @@
-# Incubator_Proposal
-# Exploring the Network of Popular American Hip-hop Artists
-*Bobae Kang*  
-*07-24-2017*  
-
-## Summary
-
-This currently repository stores the preliminary work of my project for the Data Incubator Fellowship Program. In this project, I seek to gain an insight into the network of popular U.S. rappers, whose songs have been ranked on Billboard's weekly Hot Rap Songs list. The main motivation comes from my recent interest in American hip-hop and rap artists. By exploring and examining the featuring network of rappers, I seek to present how popular rappers are connected to each other by the means of collaborating o# Incubator_Proposal
 # New York City resident complainst
 *Season Yang*  
 *07-24-2017*  
