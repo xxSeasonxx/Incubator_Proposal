@@ -1,5 +1,5 @@
 # Incubator_Proposal
-# New York City resident complainst
+# New York City Residental Complaints
 *Season Yang*  
 *07-24-2017*  
 
