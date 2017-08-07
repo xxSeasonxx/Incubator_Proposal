@@ -27,6 +27,6 @@ In the meantime, whether the issues are resolved is an important aspect in my an
 
 The second object is to analyze if New York authorities made the efforts to solve those problems by specifically focusing on New York traffic.  Using the residential complaints and combining with NYPD Motor Vehicles Collision data (includes the data of collusion such as location and time), I intend to analyze if the 311 service request lower the rate of collision progressing through time.  For example, in my second figure, I plotted out the 2015 complaints on traffic and street light, along with all the rush hour collisions happened in 2015.  By observation, it showed us the correlation between residential complaints on traffic and collision. 
 
-![Traffic_complaint](/images/Traffic-Related Complaint.png)
+![Traffic_complaint](/images/Traffic-Related_Complaint.png)
 
 ![Traffic](/images/Collision_and_Traffic_Complaint.png)
